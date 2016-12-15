@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f7f6f6">
+
+    <TextView android:id="@+id/tv_title" android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="50dp"
+              android:text="红人推荐"
+              android:textColor="#F00070"
+              android:textSize="33sp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_below="@id/tv_title"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="5dp"
+              android:text="推荐精选好货"
+              android:textColor="#6E6E6E"
+              android:textSize="20sp"/>
+</RelativeLayout>
